@@ -1,0 +1,82 @@
+
+#songs{width:100%; height:auto;}
+#songs th{text-align:center; border-right:1px solid #aaa;}
+.titlesong{background:#eee; border-bottom:1px solid #aaa; border:0;}
+.titlesong>td{font-size:18px; color:#000; text-align:center; line-height:20px; border:0;}
+.voice, .url{width:25px; height:25px;}
+.voice>img{width:25px; height:25px; cursor:pointer; vertical-align:middle;}
+
+.url>a{background: url('../img/sound.png') no-repeat; width:25px; height:25px; cursor:pointer; display:block;}
+.url>a:hover{background: url('../img/soundH.png') no-repeat;}
+
+/* news */
+.contentRight{float:right;width:330px;}
+.contentLeft{float:left;width:670px; border-right:1px solid #aaa; margin:0 0 5px 0;}
+.contentLeft h1{font-size:22px; line-height:24px;color:#CA5A36;}
+.row:before,
+.row:after {  content: '\0020';  display: block;  overflow: hidden;  visibility: hidden;  width: 0;  height: 0; }
+.row:after,
+.clearfix:after {  clear: both; }
+.row,.clearfix {  zoom: 1; }
+.row {padding:0 34px 20px 34px;}
+.nomargin{margin:0; }
+
+.news{width:250px; float:left; height:auto; margin:0 1px 20px 1px; overflow:hidden;}
+
+.news .img{max-width:250px; height:auto; margin:0 0 5px 0;}
+.news .img>img{max-width:250px; height:auto; margin:0 0 5px 0;}
+.entry-title>a{font-size:16px; font-weight:bold; font-family:Tahoma; text-decoration:none; }
+.entry-title>a:hover{color:orange;}
+.titledesc{font-size:12px; margin-bottom:20px;}
+.nomargin{margin:10px 0 0 0; font-size:20px;}
+/* news */
+
+.clipsBox{display:block; overflow:hidden; width:100%; min-height:200px; height:auto; border-top:1px solid #aaa;}
+
+#clips{overflow:hidden; width:1010px; height:123px;}
+#clips>li{float:left; width:252px !important; margin:0px; border:0;}
+#clips>li .video{display:none;}
+#clips>li img{width:250px; margin:0 2px; height:120px;}
+
+#clipsContent .clipsBox{width:100%; height:auto;  border:0; border-top:1px solid #aaa;}
+#clipsContent #clips{overflow:hidden; width:100%; height:auto;}
+#clipsContent #clips>li{margin:0 10px; width:600px;  height:auto; display:block;}
+#clipsContent #clips>li img{display:block; width:600px; height:400px; margin:10px;}
+#clipsContent #clips>li a.image{display:block;}
+#clipsContent #clips>li .ribbontag{display:none;}
+#clipsContent #clips>li .ts-display-pf-img{	width:auto;	height:auto;}
+#clipsContent #clips>li .video{display:none;}
+.clips_list{border-bottom:1px solid #aaa; float:left; margin:0 0 5px 0; overflow:auto; width:505px; height:370px;}
+.clips_list div.one img{width:495px; margin:5px; height:auto;}
+.clips_list div.two{text-align:center;}
+.clips_list h3 a{font-size:30px; color:orange; display:block; padding:5px 0 0 0; line-height:30px;}
+.clips_list h4{font-size:20px; padding:5px 0 0 0;}
+.titleH3{font-size:25px; color:#aaa; background:#eee; border-bottom:1px solid #aaa; padding:10px;}
+.shorts{overflow:auto;}
+.shorts h1{padding:15px; font-size:26px; line-height:29px; background:#eee;}
+.sfull{display:block; height:auto; margin: 10px 0 20px 0 ;}
+
+.ribbontag{position:absolute; bottom:15px; right:-40px; color:#fff; padding:5px 15px; z-index:11; background:#CA5A36;}
+.ribbontag a, .ribbontag a:visited{color:#fff;}
+.ribbontag a:hover{color:#fff; text-decoration:none;}
+.ribboncurve{position:absolute; right:0; top:-4px; width:8px; height:4px;}
+.ts-display-pf-img{position:relative;}
+.ts-display-pf-img{	width:212px;	height:123px;}
+.ts-display-pf-img a.image{	width:212px;	height:123px;	display:block;	position:relative;}
+.ts-display-pf-img a .rollover{	background:url(../img/hover-opacity-small.png);
+	background-color:#000;	background-repeat:no-repeat;
+	background-position:center;	width:212px;
+	height:123px;	display:block;
+    position:absolute;	z-index:10;
+	display:none;	cursor:pointer;
+}
+.one_fourth{float:left; width:22%; }
+.widget-title{font-size:18px; line-height:22px; margin-bottom:25px; color:#d0d0d0; margin:10px 0 0 0;}
+.jcarousel-prev{width:30px; height:30px; margin:-180px 40px 0 0; cursor:pointer; float:right; background: url(../images/prev.png) no-repeat center center;}
+.jcarousel-next{width:30px; height:30px; margin:-180px 0 0 0; cursor:pointer; float:right; background: url(../images/next.png) no-repeat center center;}
+.jcarousel-next-disabled{background:none;}
+.jcarousel-prev-disabled{background:none;}
+
+.lastnews{width:100%; height:auto; margin:0 0 10px 0; border-bottom: 1px dashed #eee;}
+.lastnews>a>h2{font-size:20px; color:#CA5A36; }
+.textshort{font-size:13px; color:#aaa; padding:0 0 10px 0;}
